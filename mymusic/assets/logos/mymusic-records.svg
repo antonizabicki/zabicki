@@ -1,0 +1,1402 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>MyMusic</title>
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+    <link href="styles.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,900" rel="stylesheet">
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+    <script type="text/javascript" src="script.js"></script>
+
+    <link
+
+        href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap"
+
+        rel="stylesheet">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143007728-1"></script>
+
+    <script>
+
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() { dataLayer.push(arguments); }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-143007728-1');
+
+    </script>
+
+</head>
+
+
+
+<body id="index">
+
+    <div id="loader-wrapper" style="display:none">
+
+        <div class="load">
+
+            <img src="logos\mymusicBlack.svg" alt="">
+
+        </div>
+
+    </div>
+
+    <div id="hideContainer">
+
+        <nav class="menu desktop uppercase">
+    <ul class="menu__list flexMenu">
+        <li class="menu__group menuInvisible"><a href="index.html" class="menu__link flexMenu"><img class="mmLogo" src="logos\mymusic.svg" alt=""> #Home</a></li>
+        <li class="menu__group menuInvisible"><a href="#projekty" class="menu__link">Działalność</a>
+            <ul>
+                <li class="menu__group"><a class="menu__link" href="wydawnictwo.html"><img src="ikonki4\menu_wydawnictwo.svg" alt=""></a></li>
+                <li class="menu__group"><a class="menu__link" href="dystrybucja.html"><img src="ikonki4\menu_dystrybucja.svg" alt=""></a></li>
+                <!--    <li class="menu__group"><a class="menu__link" href="#"><img
+                            src="logos-white\music-go-01.svg" alt=""></a></li>-->
+                <li class="menu__group"><a class="menu__link" href="events.html"><img src="ikonki4\menu_live.svg" alt=""></a>
+                </li>
+                <li id="merchIt" class="menu__group"><a class="menu__link" onclick="window.open('https://merchit.pl/');"><img src="ikonki4\menu_merchandising.svg" alt=""></a></li>
+                <li class="menu__group"><a class="menu__link" href="#"><img src="ikonki4\menu_ecommerce.svg" alt=""></a></li>
+                <li class="menu__group"><a class="menu__link" href="centrumLogistyczne.html"><img src="ikonki4\menu_logistyka.svg" alt=""></a></li>
+                <li class="menu__group"><a class="menu__link" href="#"><img src="ikonki4\menu_turystyka.svg" alt=""></a></li>
+                <li class="menu__group"><a class="menu__link" href="niumi.html"><img src="ikonki4\menu_moda.svg" alt=""></a></li>
+            </ul>
+        </li>
+        <li class="menu__group menuInvisible"><a href="#struktura" class="menu__link">Struktura</a></li>
+        <li class="menu__group menuInvisible"><a href="#przylacz" class="menu__link">Dołącz do nas</a></li>
+        <li class="menu__group menuInvisible"><a href="#dolacz" class="menu__link">Kariera</a></li>
+        <li id="newsMenu" class="menu__group newsNavi"><a style="width: 13vw;" class="menu__link newsMenuText">News</a></li>
+        <!--        <li class="menu__group"><a href="https://news.mymusic.pl/?page_id=273" class="menu__link">Kontakt</a>
+        </li>
+        <li class="menu__group"><a href="https://news.mymusic.pl" class="menu__link">NEWS</a></li> -->
+    </ul>
+</nav><nav class="nav2 mobile uppercase" role="navigation">
+    <div id="menuToggle">
+        <input type="checkbox">
+        <span></span>
+        <span></span>
+        <span></span>
+        <ul id="menu">
+            <a href="index.html">#HOME</a> <br>
+            <a href="#projekty">Działalność</a> <br>
+            <a href="#struktura">Struktura</a> <br>
+            <a href="#przylacz">Dołącz do nas</a> <br>
+            <a href="#dolacz">Kariera</a> <br>
+            <a id="newsMenuMobile">News</a> <br>
+            <!--       <a href="https://news.mymusic.pl/?page_id=273">Kontakt</a> <br>
+            <a href="https://news.mymusic.pl">NEWS</a> <br> -->
+        </ul>
+    </div>
+    <script>
+    </script>
+</nav>
+
+        <div class="mmTextC1 mmTopM1">
+
+            <div class="mmh2">
+
+                Muzyka nigdy się nie zatrzymuje. <br>
+
+                Melodie i słowa opisują i kreują rzeczywistość,<br> <br>
+
+            </div>
+
+            <div style="margin-bottom:0.7em; font-weight: 800;" class="mmh1 desktop opacity70">
+
+                Najlepsze idee powstają
+
+                w głowach ludzi<br>
+
+                wolnych i otwartych
+
+            </div>
+
+            <div class="mmh1 mmBottomP1 mobile opacity70">
+
+                Najlepsze idee <br>
+
+                powstają <br>
+
+                w głowach ludzi<br>
+
+                wolnych i otwartych
+
+            </div>
+
+            <div class="mmh2 mmBottomP1 opacity70">
+
+                Tacy jesteśmy. <br>
+
+                To co robimy, to nasza pasja. <br>
+
+                Poszukujemy emocji, bo to one są paliwem, <br>
+
+                które napędza nasz świat. <br>
+
+                Spotkajmy się w świecie MyMusic.
+
+            </div>
+
+            <div style="font-style:italic; font-weight:500" class="mmh1 mmBottomP1 opacity70"><span
+
+                    style="font-weight: 800; font-style: italic;">#home</span>of<span
+
+                    style="font-weight: 800; font-style: italic;">good</span>ideas</div>
+
+        </div>
+
+        <div class="mmImgC1"><img class="mmImg1 homeImg" src="glowna\dom.svg" alt=""></div>
+
+        <div id="projekty" class="mmTextC1 mmTopP1">
+
+            <div class="mmh1 mmBottomP1 opacity70">
+
+                Potrzebna ci mapa <br>
+
+            </div>
+
+            <div class="mmh2 mmBottomP2 desktop opacity70">
+
+                Świat MyMusic jest rozległy jak ocean dźwięków. Wciąż się rozbudowuje.<br>
+
+                Zamiast błądzić, lepiej od razu poczuć rytm i trafić pod właściwy adres.<br>
+
+                Wybierz miejsce, które Cię interesuje i poznaj obszary naszej działalności.
+
+            </div>
+
+            <div class="mmh2 mmBottomP1 mobile opacity70">
+
+                Świat MyMusic jest rozległy jak ocean dźwięków. Wciąż się rozbudowuje.<br>
+
+                Zamiast błądzić, lepiej od razu poczuć rytm i trafić pod właściwy adres.<br>
+
+                Wybierz miejsce, które Cię interesuje i poznaj obszary naszej działalności.
+
+            </div>
+
+        </div>
+
+        <div class="grid1Background">
+
+            <div class="mmGrid1">
+
+                <a href="wydawnictwo.html">
+
+                    <div class="mmBox1 "><img class="mmImg1" src="ikonki4\wydawnictwo.svg" alt=""></div>
+
+                </a>
+
+                <a href="dystrybucja.html">
+
+                    <div class="mmBox1 "><img class="mmImg1" src="ikonki4\dystrybucja.svg" alt=""></div>
+
+                </a>
+
+                <!--MUSICGO
+
+            <div class="mmBox1 "><img class="mmImg1" src="ikonki3\music-go-01.svg" alt=""></div>-->
+
+
+
+                <a href="events.html">
+
+                    <div class="mmBox1 "><img class="mmImg1" src="ikonki4\live.svg" alt=""></div>
+
+                </a>
+
+                <a href="https://merchit.pl/">
+
+                    <div class="mmBox1 "><img class="mmImg1" src="ikonki4\merchandising.svg" alt=""></div>
+
+                </a>
+
+                <!--    <a href="https://mymusicshop.pl/">
+
+            <div class="mmBox1 "><img class="mmImg1" src="ikonki2\myshop-01.svg" alt=""></div>
+
+        </a>-->
+
+                <a>
+
+                    <div class="mmBox1 "><img class="mmImg1" src="ikonki4\ecomerce.svg" alt=""></div>
+
+                </a>
+
+                <a href="centrumLogistyczne.html">
+
+                    <div class="mmBox1 "><img class="mmImg1" src="ikonki4\centrum_logistyczne.svg" alt=""></div>
+
+                </a>
+
+                <div class="mmBox1 "><img class="mmImg1" src="ikonki4\turystyka.svg" alt=""></div>
+
+                <a href="niumi.html">
+
+                    <div class="mmBox1 "><img class="mmImg1" src="ikonki4\moda.svg" alt=""></div>
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <div id="struktura" class="mmTextC1 mmTopP2 opacity70">
+
+            <div class="mmh1 mmBottomP1 ">
+
+                Architektura MyMusic <br>
+
+                opiera się na sześciu filarach <br>
+
+            </div>
+
+            <div class="desktop mmh2 mmBottomP2 ">
+
+                To one stanowią o stabilności całej struktury. <br>
+
+                Wśród nich słychać takty naszych idei, na nich opierają się wszystkie projekty. <br>
+
+                Dlatego dbamy, by były solidne.<br>
+
+                <br>
+
+                Lubimy freestyle. Jesteśmy niezależni. <br>
+
+                Bycie niezależnym, to jednak nie to samo co życie poza wszelkimi regułami.
+
+            </div>
+
+            <div class="mobile mmh2 mmBottomP2 ">
+
+                To one stanowią o stabilności całej struktury.
+
+                Wśród nich słychać takty naszych idei, na nich opierają się wszystkie projekty.
+
+                Dlatego dbamy, by były solidne.
+
+                <br>
+
+                <br>
+
+                Lubimy freestyle. Jesteśmy niezależni. <br>
+
+                Bycie niezależnym, to jednak nie to samo co życie poza wszelkimi regułami.
+
+            </div>
+
+        </div>
+
+        <div class="mmC1 mmTopP2 mmBottomP2">
+
+            <div class="mmImgC2 mmBottomP1 zoom" onmousemove="zoom(event)"; style='background-image:url(glowna/pion-handlowy-mymusic.jpg)'><img class="mmImg1" src="glowna/pion-handlowy-mymusic.jpg" alt=""></div>
+
+            <div class="mmTextC2 mmWhite">
+
+                <div class="mmh1 mmPLR0 mmBottomP5">
+
+                    Pion handlowy <br>
+
+                </div>
+
+                <div class="flex">
+
+                    <div class="desktop mmC50 mmh4">
+
+                        <div class="mmh2">
+
+                            W handlu najważniejsze jest, by perfekcyjnie odpowiedzieć <br>
+
+                            na potrzebę
+
+                            klienta. W MyMusic koncentrujemy się na potrzebach i pragnieniach.
+
+                            Dobrze je wyczuwamy, dynamicznie reagujemy. Ogromne doświadczenie
+
+                            pracowników Pionu Handlowego pozwala skutecznie wspomagać procesy
+
+                            sprzedaży. Potem możemy wspólnie nucić melodię sukcesu. <br>
+
+                            <br>
+
+                        </div>
+
+                        Projekty realizowane przez nas to często innowacyjne przedsięwzięcia <br>
+
+                        wspomagane przez najnowszą technologię. Optymalizujemy nasze <br>
+
+                        działania, by docierać do klientów w sposób prosty i skuteczny. <br>
+
+                        Marcin zna doskonale rynek muzyczny, wie kto z kim i dlaczego. <br>
+
+                        Z artystami potrafi godzinami rozmawiać o muzyce. <br>
+
+                        Jednak Marcin ma jeszcze jedną wielką miłość. <br>
+
+                        Sekret, o którym dotąd wiedziało niewielu. <br>
+
+                        <br>
+
+                    </div>
+
+                    <div class="mobile mmC50 mmh2 mmTopP1 ">
+
+                        W handlu najważniejsze jest, by perfekcyjnie odpowiedzieć <br>
+
+                        na potrzebę
+
+                        klienta. W MyMusic koncentrujemy się na potrzebach i pragnieniach.
+
+                        Dobrze je wyczuwamy, dynamicznie reagujemy. Ogromne doświadczenie
+
+                        pracowników Pionu Handlowego pozwala skutecznie wspomagać procesy
+
+                        sprzedaży. Potem możemy wspólnie nucić melodię sukcesu. <br>
+
+                        <br>
+
+                        Projekty realizowane przez nas to często innowacyjne przedsięwzięcia <br>
+
+                        wspomagane przez najnowszą technologię. Optymalizujemy nasze <br>
+
+                        działania, by docierać do klientów w sposób prosty i skuteczny. <br>
+
+                        Marcin zna doskonale rynek muzyczny, wie kto z kim i dlaczego. <br>
+
+                        Z artystami potrafi godzinami rozmawiać o muzyce. <br>
+
+                        Jednak Marcin ma jeszcze jedną wielką miłość. <br>
+
+                        Sekret, o którym dotąd wiedziało niewielu. <br>
+
+                        <br>
+
+                    </div>
+
+                    <div class="desktop mmC50 mmh4">
+
+                        <div class="mmImgC3 mmBottomP1"><img class="mmImg1" src="glowna/marcin-pion-handlowy.jpg"
+
+                                alt="">
+
+                        </div>
+
+                        <div class="" style="font-style:italic ;font-weight: 500;">
+
+                            „Znam każdy detal, najdrobniejszy element. Sklejanie samolotów wymaga <br>
+
+                            gigantycznego skupienia, znajomości tematu, wyobraźni i precyzji. <br>
+
+                            Dokładnie takie cechy musi mieć dobry handlowiec. <br>
+
+                            Tego nie można się nauczyć, z tym trzeba się urodzić. <br>
+
+                            Takich talentów szukam do mojego Pionu. <br> <br>
+
+
+
+                            Nazywam się Marcin Kowalski i jestem dyrektorem pionu Handlowego MyMusic"
+
+                        </div>
+
+                    </div>
+
+                    <div class="mobile mmC50 mmh2">
+
+                        <div class="mmImgC3 mmBottomP1 mmTopP1"><img class="mmImg1"
+
+                                src="glowna/marcin-pion-handlowy.jpg" alt="">
+
+                        </div>
+
+                        <div class="" style="font-style:italic ;font-weight: 500;">
+
+                            „Znam każdy detal, najdrobniejszy element. <br> Sklejanie samolotów wymaga <br>
+
+                            gigantycznego skupienia, znajomości <br> tematu, wyobraźni i precyzji.<br>
+
+                            Dokładnie takie cechy musi mieć dobry <br> handlowiec. Tego nie można się nauczyć, <br>
+
+                            z tym trzeba się
+
+                            urodzić. Takich talentów <br> szukam do mojego Pionu. <br> <br>
+
+
+
+                            Nazywam się Marcin Kowalski i jestem dyrektorem pionu Handlowego MyMusic"
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="mmC1 mmBG mmTopP2 mmBottomP2">
+
+            <div class="mmImgC2"><img class="mmImg1" src="glowna/pion-marketing-mymusic.jpg" alt=""></div>
+
+            <div class="mmTextC2 mmBlack">
+
+                <div class="mmh1 mmPLR0 mmTopP1 mmBottomP5">
+
+                    Pion Marketingu i PR <br>
+
+                </div>
+
+                <div class="flex">
+
+                    <div class="desktop mmC50 mmh4">
+
+                        <div class="mmh2">Budujemy elektrownię atomową.
+
+                            Nie dosłownie, <br> ale bywa, że stopień skomplikowania projektów <br> realizowanych w
+
+                            MyMusic
+
+                            przypomina <br> procedury stosowane przez inżynierów NASA. <br>
+
+                            <br> </div>
+
+                    </div>
+
+                    <div class="desktop mmC50 mmh4">
+
+                        Każdy projekt staje się kolejnym etapem konstrukcji, która finalnie daje <br>
+
+                        zasilanie całej firmie. Nasze zadanie, to przekładanie skomplikowanego <br>
+
+                        świata na język zrozumiały dla każdego. Dla Artystów jesteśmy pierwszą <br>
+
+                        linią wsparcia. Bierzemy na siebie najtrudniejsze zadania i niczym <br>
+
+                        komando-ninja działamy w ciszy i mroku. Bo liczy się efekt, a splendory <br>
+
+                        zarezerwowane są dla naszych Gwiazd. <br>
+
+                        <br></div>
+
+                </div>
+
+            </div>
+
+            <div class="mobile mmC50 mmh2 mmTopP1">
+
+                Budujemy elektrownię atomową. <br> Nie dosłownie, ale bywa,
+
+                że stopień <br> skomplikowania projektów realizowanych <br> w MyMusic
+
+                przypomina procedury <br> stosowane przez inżynierów NASA.
+
+                <br> <br>
+
+                Każdy projekt staje się kolejnym etapem <br> konstrukcji, która finalnie daje
+
+                zasilanie <br> całej firmie. Nasze zadanie, to przekładanie <br> skomplikowanego
+
+                świata na język <br> zrozumiały dla każdego. Dla Artystów <br> jesteśmy pierwszą
+
+                linią wsparcia. Bierzemy <br> na siebie najtrudniejsze zadania i niczym <br>
+
+                komando-ninja działamy w ciszy i mroku. <br> Bo liczy się efekt, a splendory <br>
+
+                zarezerwowane są dla naszych Gwiazd.
+
+                <br> <br>
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+    <div class="mmC1 mmTopP2 mmBottomP2">
+
+        <div id="img-container" class="mmImgC2"><img class="mmImg1" src="glowna/pion-produkcji-mymusic.jpg" alt=""></div>
+
+        <div class="mmTextC2 mmWhite">
+
+            <div class="mmh1 mmPLR0 mmTopP1 mmBottomP5">
+
+                Pion Produkcji <br>
+
+            </div>
+
+            <div class="flex">
+
+                <div class="desktop mmC50 mmh4">
+
+                    <div class="mmh2"> Perfekcyjnie przygotowanych zespół gotowy <br>
+
+                        do wytworzenia tego co stworzyła ludzka wyobraźnia. <br>
+
+                        <br></div>
+
+                    Żadna idea nie ujrzy światła dziennego bez teamu produkcji, Każdy event, <br>
+
+                    każdy koncert, każda nowa płyta nie zmaterializuje się, jeśli nie zajmie się <br>
+
+                    tym zespół producentów. <br>
+
+                    <br>
+
+                    Rzadko nas widać, ale gdyby nie my, wszystko by stanęło. Przemierzamy <br>
+
+                    tysiące kilometrów. Zużywamy setki litrów paliwa. Zawsze jesteśmy pierwsi. <br>
+
+                    Przygotowujemy wszystko, tak by każdy koncert mógł rozpocząć się <br>
+
+                    o czasie. By Artysta stając przed fanami nie musiał się o nic martwić. <br>
+
+                    <br>
+
+                </div>
+
+                <div class="desktop mmC50 mmh4">
+
+                    <div class="mmImgC4 mmBottomP1"><img class="mmImg1" src="glowna/patryk-pion-produkcji.jpg" alt="">
+
+                    </div>
+
+                    <div style="font-style:italic; font-weight: 500;">
+
+                        „Produkcja to nieustanna walka. Z czasem, z tworzywem, a nawet z wiatrem <br>
+
+                        wiejącym nam w oczy. Jesteśmy do tego przyzwyczajeni i nauczeni,<br> że walczy
+
+                        się do końca. Jesteśmy jak układ krwionośny tego organizmu.<br> Spinamy projekty
+
+                        i dbamy, by tlen dotarł w każde miejsce. <br> Pion Produkcji to maszynownia całego
+
+                        MyMusic, a ja za nią odpowiadam. <br> <br>
+
+
+
+                        Nazywam się Patryk Idzik i jestem Dyrektorem Produkcji w MyMusic" <br>
+
+                    </div>
+
+                </div>
+
+                <div class="mmh1 mmPLR0 mmBottomP5 mobile">
+
+                    Pion Produkcji <br>
+
+                </div>
+
+                <div class="mobile mmC50 mmh2 mmBottomP1 mmTopP1">
+
+
+
+                    Perfekcyjnie przygotowanych zespół <br> gotowy
+
+                    do wytworzenia tego co stworzyła <br> ludzka wyobraźnia.
+
+                    <br> <br>
+
+                    Żadna idea nie ujrzy światła dziennego <br> bez teamu produkcji, Każdy event, <br>
+
+                    każdy koncert, każda nowa płyta nie <br> zmaterializuje się, jeśli nie zajmie się
+
+                    tym <br> zespół producentów.
+
+                    <br> <br>
+
+                    Rzadko nas widać, ale gdyby nie my, <br> wszystko by stanęło. Przemierzamy
+
+                    tysiące <br> kilometrów. Zużywamy setki litrów paliwa.<br> Zawsze jesteśmy pierwsi.
+
+                    Przygotowujemy <br> wszystko, tak by każdy koncert mógł <br> rozpocząć się
+
+                    o czasie. By Artysta stając <br> przed fanami nie musiał się o nic martwić.
+
+                    <br>
+
+                </div>
+
+                <div class="mobile mmC50 mmh2">
+
+                    <div class="mmImgC4 mmBottomP1"><img class="mmImg1" src="glowna/patryk-pion-produkcji.jpg" alt="">
+
+                    </div>
+
+                    <div style="font-style:italic ;font-weight: 500;">
+
+                        „Produkcja to nieustanna walka. Z czasem,<br> z tworzywem, a nawet z wiatrem
+
+                        wiejącym <br> nam w oczy. Jesteśmy do tego <br> przyzwyczajeni i nauczeni, że walczy <br>
+
+                        się do końca. Jesteśmy jak układ <br> krwionośny tego organizmu. <br> Spinamy projekty
+
+                        i dbamy, <br> by tlen dotarł w każde miejsce. <br> Pion Produkcji to maszynownia całego <br>
+
+                        MyMusic, a ja za nią odpowiadam. <br> <br>
+
+
+
+                        Nazywam się Patryk Idzik i jestem <br> Dyrektorem Produkcji w MyMusic"
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+    <div class="mmC1 mmBG mmBottomP2 mmTopP2">
+
+        <div class="mmImgC2 mmBottomP1"><img class="mmImg1" src="glowna/patryk-pion-programowania.jpg" alt=""></div>
+
+        <div class="mmTextC2 mmBlack">
+
+            <div class="mmh1 mmPLR0 mmBottomP5">
+
+                Pion Programowania <br>
+
+            </div>
+
+            <div class="flex">
+
+                <div class="desktop mmC50 mmh4">
+
+
+
+                    <div class="mmh2">
+
+                        Opisujemy świat kodami. Każdego dnia znajdujemy nowy <br>
+
+                        sposób na nazwanie jego fragmentu cyfrowym językiem. <br>
+
+                        <br> </div>
+
+                    W Pionie Programowania nie istnieje hasło „nie da się”. Uważamy, że jeśli <br>
+
+                    pomysł nie przeczy prawom fizyki, to znaczy że można go zrealizować. <br>
+
+                    <br>
+
+                    Nie jesteśmy cudotwórcami, ale wciąż poszukujemy granicy <br> między realiami,
+
+                    a zadaniami ze sfery nadprzyrodzonej. <br>
+
+                    <br>
+
+                </div>
+
+                <div class="desktop mmC50 mmh4">
+
+                    <div style="font-style:italic ;font-weight: 500;">
+
+                        „Co jest moim największym atutem w pracy? <br>
+
+                        Fakt że oprócz kilku języków programowania całkiem nieźle potrafię <br>
+
+                        się komunikować po ludzku. To chyba największa nasza zaleta, dzięki <br>
+
+                        temu potrafimy tworzyć z myślą o użytkowniku. Przecież cała moja <br>
+
+                        praca jest podporządkowana realizacji wizji ludzi.” <br>
+
+                        <br>
+
+                    </div>
+
+                    { <br>
+
+                    &nbsp;&nbsp; Console.Writeline(‘’Patryk Radecki C# Developer / IT Project Manager’’); <br>
+
+                    &nbsp;&nbsp; return 0; <br>
+
+                    } <br>
+
+                    <br>
+
+                    <div class="mmh2"> Każda linia kodu, która jest tworzona w naszych pracowniach, <br>
+
+                        przybliża nas do realizacji projektów, nad którymi pracujemy. <br> </div>
+
+                </div>
+
+                <div class="mobile mmC50 mmh2 mmTopP1">
+
+                    Opisujemy świat kodami. <br> Każdego dnia znajdujemy nowy
+
+                    sposób <br> na nazwanie jego fragmentu cyfrowym językiem.
+
+                    <br> <br>
+
+                    W Pionie Programowania nie istnieje hasło <br> „nie da się”. Uważamy, że jeśli
+
+                    pomysł nie <br> przeczy prawom fizyki,<br> to znaczy że można go zrealizować.
+
+                    <br> <br>
+
+                    Nie jesteśmy cudotwórcami,<br> ale wciąż poszukujemy granicy <br> między realiami,
+
+                    a zadaniami ze sfery<br> nadprzyrodzonej.
+
+                    <br> <br>
+
+                </div>
+
+                <div class="mobile mmC50 mmh2">
+
+                    <div style="font-style:italic ;font-weight: 500;">
+
+                        „Co jest moim największym atutem <br> w pracy?
+
+                        Fakt że oprócz kilku języków <br> programowania całkiem nieźle potrafię <br>
+
+                        się komunikować po ludzku. To chyba <br> największa nasza zaleta, dzięki
+
+                        temu <br> potrafimy tworzyć z myślą o użytkowniku. <br> Przecież cała moja
+
+                        praca jest <br> podporządkowana realizacji wizji ludzi.”
+
+                        <br> <br>
+
+                    </div>
+
+                    { <br>
+
+
+
+                    &nbsp;&nbsp; Console.Writeline(‘’Patryk Radecki C# Developer / IT Project Manager’’); <br>
+
+                    &nbsp;&nbsp; return 0; <br>
+
+                    } <br>
+
+                    <br>
+
+                    Każda linia kodu, która jest tworzona <br> w naszych pracowniach,
+
+                    przybliża nas <br> do realizacji projektów, nad którymi pracujemy.
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+    <div class="mmC1 mmBottomP2 mmTopP2">
+
+        <div class="mmTextC2 mmWhite">
+
+            <div class="flex">
+
+                <div class="desktop mmC50 mmh4">
+
+                    <div class="mmh1 mmPLR0 mmBottomP5">
+
+                        Pion Badawczo-rozwojowy <br>
+
+                    </div>
+
+                    Jesteśmy innowatorami. Unikamy zgranych melodii,
+
+                    nie chodzimy na skróty. <br>
+
+                    Wolimy skupić się na komponowaniu i badaniach,
+
+                    by doprowadzić do najlepszych rozwiązań. <br>
+
+                    Stworzyliśmy Pion Badawczo-Rozwojowy,
+
+                    bo interesuje nas, by iść coraz dalej. <br>
+
+                    Chcemy być awangardą w każdym z projektów,
+
+                    które bierzemy na tapetę. <br>
+
+                    <br>
+
+                    <span class="mmh3 mmPLR0">Zrównoważony rozwój</span>
+
+                    to nie tylko zbiór pięknych haseł. <br>
+
+                    To scenariusz zachowania naszej planety
+
+                    i najbliższego środowiska <br>
+
+                    w dobrej kondycji.
+
+                    To także wezwanie do sprawiedliwości. <br>
+
+                    <br>
+
+                    Kiedy dyskutujemy o decyzjach ważnych dla MyMusic, zawsze poszukujemy <br>
+
+                    rozwiązań, które zagwarantują rozwój firmy, a także ludzi, którzy ją tworzą. <br>
+
+                    Nasz MyMusic#home to inteligentny budynek. Zużywa prąd tylko wtedy, <br>
+
+                    gdy to jest bezwzględnie potrzebne.
+
+                    Jest bardziej <span class="mmh3 mmPLR0">ekologiczny</span>
+
+                    niż jazda na rowerze. Zresztą rowery parkują przed budynkiem każdego dnia
+
+                    i bez względu na pogodę. <br>
+
+                    <br>
+
+                </div>
+
+                <div class="mmh1 mmPLR0 mmBottomP5 mobile">
+
+                    Pion Badawczo-rozwojowy <br>
+
+                </div>
+
+                <div class="mobile mmC50 mmh2 mmTopP1">
+
+                    Jesteśmy innowatorami. Unikamy zgranych melodii,
+
+                    nie chodzimy na skróty. <br>
+
+                    Wolimy skupić się na komponowaniu i badaniach,
+
+                    by doprowadzić do najlepszych rozwiązań. <br>
+
+                    Stworzyliśmy Pion Badawczo-Rozwojowy,
+
+                    bo interesuje nas, by iść coraz dalej. <br>
+
+                    Chcemy być awangardą w każdym z projektów,
+
+                    które bierzemy na tapetę. <br>
+
+                    <br>
+
+                    <span class="mmh3 mmPLR0">Zrównoważony rozwój</span>
+
+                    to nie tylko zbiór pięknych haseł. <br>
+
+                    To scenariusz zachowania naszej planety
+
+                    i najbliższego środowiska w dobrej kondycji. <br>
+
+                    To także wezwanie do sprawiedliwości. br
+
+                    <br>
+
+                    Kiedy dyskutujemy o decyzjach ważnych dla MyMusic, zawsze poszukujemy <br>
+
+                    rozwiązań, które zagwarantują rozwój firmy, a także ludzi, którzy ją tworzą. <br>
+
+                    Nasz MyMusic#home to inteligentny budynek. Zużywa prąd tylko wtedy, <br>
+
+                    gdy to jest bezwzględnie potrzebne. Jest bardziej <span class="mmh3 mmPLR0">ekologiczny</span>
+
+                    <br>
+
+                    niż jazda na rowerze. Zresztą rowery parkują przed budynkiem każdego <br> dnia
+
+                    i bez względu na pogodę. <br>
+
+                    <br>
+
+                </div>
+
+                <div class="desktop mmC50 mmh2">
+
+                    <div class="mmImgC4"><img class="mmImg1" src="glowna/pion-badawczo-rozwojowy-mymusic.jpg" alt="">
+
+                    </div>
+
+                </div>
+
+                <div class="mobile mmC50 mmh2 mmTopP1">
+
+                    <div class="mmImgC4"><img class="mmImg1" src="glowna/pion-badawczo-rozwojowy-mymusic.jpg" alt="">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="mmC1 mmBG mmBottomP2 mmTopP2">
+
+        <div class="mmImgC2"><img class="mmImg1" src="glowna/pion-administracyjny-mymusic.jpg" alt=""></div>
+
+        <div class="mmTextC2 mmBlack">
+
+            <div class="mmh1 mmPLR0 mmTopP1 mmBottomP5">
+
+                Pion Administracyjny <br>
+
+            </div>
+
+            <div class="flex">
+
+                <div class="desktop mmC50 mmh4">
+
+
+
+                    Nie myślcie, że to królestwo excela i tabelek. <br> To miejsce dużo ciekawsze.
+
+                    Skarbiec MyMusic, w którym zamiast złota trzymamy rzeczy o wiele bardziej
+
+                    cenne. <br> To umowy z Artystami i naszymi partnerami - bezcenny kapitał, dzięki
+
+                    któremu możemy realizować <br> nasze wspólne plany i marzenia. <br>
+
+                    <br>
+
+                    W sejfie jest także cała wiedza na temat rozliczeń, które w MyMusic
+
+                    prowadzone są wyjątkowo skrupulatnie. <br> Ten skarbiec ma wielu strażników,
+
+                    którzy nie tylko każdego dnia <br>dbają o to, by nasze klejnoty były bezpieczne, <br>
+
+                    ale także pracują nad pomnażaniem bogactwa. <br>To spora grupa, w skład
+
+                    której wchodzą <br> prawnicy, księgowe, pracownicy działu rozliczeń i kadry.
+
+                    <br>
+
+                </div>
+
+                <div class="desktop mmC50 mmh4">
+
+                    Kiedy nie siedzi za biurkiem, biega z rakietą po korcie tenisowym. Kasia
+
+                    potrafi celnie uderzyć i zawsze trafia w odpowiednie pole lub właściwą linię.
+
+                    Jest bardzo szybka i precyzyjna. <br>
+
+                    <div class="mmImgC4 mmBottomP1 mmTopP1"><img class="mmImg1"
+
+                            src="glowna/kasia-pion-administracyjny.jpg" alt=""></div>
+
+                    <div style="font-style:italic ;font-weight: 500;">
+
+                        „Precyzja w administracji to podstawa. Liczy się każda cyfra – ta przed
+
+                        przecinkiem i ta za nim. Uczciwość i pełna kontrola finansowa, to nasz
+
+                        znak firmowy. <br>
+
+                        <br>
+
+                        Nazywam się Katarzyna Borowska i odpowiadam <br>
+
+                        za funkcjonowanie MyMusic#home".<br>
+
+                    </div>
+
+                </div>
+
+                <div class="mobile mmC50 mmh2 mmTopP1">
+
+
+
+                    Nie myślcie, że to królestwo excela i tabelek.<br> To miejsce dużo ciekawsze. <br>
+
+                    Skarbiec MyMusic, w którym zamiast złota<br> trzymamy rzeczy o wiele bardziej
+
+                    cenne. <br> To umowy z Artystami i naszymi partnerami<br> - bezcenny kapitał, dzięki
+
+                    któremu możemy <br> realizować nasze wspólne plany i marzenia.
+
+                    <br> <br>
+
+                    W sejfie jest także cała wiedza na temat<br> rozliczeń, które w MyMusic
+
+                    prowadzone <br> są wyjątkowo skrupulatnie. Ten skarbiec<br> ma wielu strażników,
+
+                    którzy nie tylko <br>każdego dnia dbają o to, by nasze klejnoty<br> były bezpieczne,
+
+                    ale także pracują nad<br> pomnażaniem bogactwa. To spora grupa,<br> w skład,
+
+                    której wchodzą prawnicy,<br> księgowe, pracownicy działu rozliczeń <br> i kadry.
+
+                    <br> <br>
+
+                </div>
+
+                <div class="mobile mmC50 mmh2">
+
+                    Kiedy nie siedzi za biurkiem, biega z rakietą<br> po korcie tenisowym. Kasia
+
+                    potrafi celnie<br> uderzyć i zawsze trafia w odpowiednie pole<br> lub właściwą linię.
+
+                    Jest bardzo szybka <br> i precyzyjna.
+
+                    <div class="mmImgC4 mmBottomP1 mmTopP1"><img class="mmImg1"
+
+                            src="glowna/kasia-pion-administracyjny.jpg" alt=""></div>
+
+                    <div style="font-style:italic ;font-weight: 500;">
+
+                        „Precyzja w administracji to podstawa.<br> Liczy się każda cyfra – ta przed
+
+                        przecinkiem<br> i ta za nim. Uczciwość i pełna kontrola<br> finansowa, to nasz
+
+                        znak firmowy.
+
+                        <br> <br>
+
+                        Nazywam się Katarzyna Borowska <br> i odpowiadam
+
+                        za funkcjonowanie MyMusic#home".
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+    <div class="mmC1 mmBottomP2 mmTopP2">
+
+        <div id="przylacz" class="mmImgC2"><img class="mmImg1" src="glowna/masz-pomysl-mymusic.jpg" alt=""></div>
+
+        <div class="mmTextC2 mmWhite">
+
+            <div class="mmh1 mmPLR0 mmTopP1 mmBottomP5">
+
+                Masz pomysł - przyłącz się <br>
+
+            </div>
+
+            <div class="flex">
+
+                <div class="desktop mmC50 mmh4">
+
+                    <div class="mmh2">
+
+                        Siła MyMusic to kreatywny potencjał. <br>
+
+                        Dzięki temu możemy podejmować kolejne wyzwania. <br>
+
+                        <br></div>
+
+                    Jesteśmy stale rozwijającą się firmą gotową na kolejne projekty
+
+                    <br> Jesteśmy otwarci na nowe propozycje, zawsze chętnie poznamy
+
+                    ludzi,<br> którzy mają pasję i chęć stworzenia czegoś emocjonalnego.<br> Jesteśmy
+
+                    gotowi, by wspomóc tę pasję profesjonalnym zapleczem osobowym
+
+                    i zainwestować w Twój dobry pomysł. <br>
+
+                    <br>
+
+                    W MyMusic StartUp zapewniamy obsługę na najwyższym poziomie, <br>
+
+                    finansowanie i kilkunastoletnie doświadczenie w zarządzaniu projektami. <br>
+
+                    <br>
+
+                    Nie wahaj się. Czekamy na Ciebie i Twój pomysł.
+
+                </div>
+
+                <div class="desktop mmC50 mmh4">
+
+                    Remik był pierwszą osobą, która nową siedzibę nazwała „MyMusic#home". <br>
+
+                    Założyciel firmy czuje się w niej jak w domu. <br> Otwiera jej drzwi szeroko przed
+
+                    tymi, którzy mają głowy pełne pomysłów. <br>
+
+                    <div class="mmImgC4"><img class="mmImg1 mmBottomP1 mmTopP1" src="glowna/remik-masz-pomysl.jpg"
+
+                            alt="">
+
+                    </div>
+
+                    <div style="font-style:italic ;font-weight: 500;">
+
+                        „Wierzę w ludzi i ich pasje. Z pasji powstało przecież MyMusic. Dlatego <br>
+
+                        teraz wyciągam rękę do tych, którzy mają w sobie ogień i chcieliby razem <br>
+
+                        z nami rozpocząć swoją biznesową drogę". <br>
+
+                        <br>
+
+                        Remik Łupicki zbudował MyMusic od zera. <br> Wierzy, że do sukcesu
+
+                        potrzebna jest dobra idea i zaangażowanie. <br>
+
+                    </div>
+
+                </div>
+
+                <div class="mobile mmC50 mmh2 mmTopP1 mmBottomP1">
+
+
+
+                    Siła MyMusic to kreatywny potencjał. <br>
+
+                    Dzięki temu możemy podejmować <br> kolejne wyzwania.
+
+                    <br> <br>
+
+                    Jesteśmy firmą, która stale się rozwija <br> i jest gotowa do tworzenia kolejnych<br>
+
+                    projektów. Jesteśmy otwarci na nowe<br> propozycje, zawsze chętnie poznamy
+
+                    ludzi, <br>którzy mają pasję i chęć stworzenia czegoś<br> emocjonalnego. Jesteśmy
+
+                    gotowi, <br> by wspomóc tę pasję profesjonalnym<br> zapleczem osobowym
+
+                    i zainwestować <br> w Twój dobry pomysł.
+
+                    <br> <br>
+
+                    W MyMusic StartUp zapewniamy obsługę<br> na najwyższym poziomie,
+
+                    finansowanie<br> oraz kilkunastoletnie doświadczenie <br> w zarządzaniu projektami.
+
+                    <br> <br>
+
+                    Nie wahaj się. <br> Czekamy na Ciebie i Twój pomysł.
+
+                </div>
+
+                <div class="mobile mmC50 mmh2">
+
+                    Remik był pierwszą osobą, która nową<br> siedzibę nazwała „MyMusic#home".<br>
+
+                    Założyciel firmy czuje się w niej jak w domu.<br> Otwiera jej drzwi szeroko przed
+
+                    tymi, którzy<br> mają głowy pełne pomysłów.
+
+                    <div class="mmImgC4"><img class="mmImg1 mmBottomP1 mmTopP1" src="glowna/remik-masz-pomysl.jpg"
+
+                            alt="">
+
+                    </div>
+
+                    <div style="font-style:italic ;font-weight: 500;">
+
+                        „Wierzę w ludzi i ich pasje. Z pasji powstało<br> przecież MyMusic. Dlatego
+
+                        teraz wyciągam<br> rękę do tych, którzy mają w sobie ogień <br> i chcieliby razem
+
+                        z nami rozpocząć swoją biznesową drogę".
+
+                        <br> <br>
+
+                        Remik Łupicki zbudował MyMusic od zera.<br> Dlatego wierzy, że do sukcesu
+
+                        potrzebny<br> jest dobra idea i zaangażowanie.
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+    <div class="mmBG">
+
+        <div id="dolacz" class="mmTextC1 mmBottomP1 mmTopP2 opacity70">
+
+            <div class="desktop mmh1 mmBottomP5">
+
+                Dołącz do nas - dział praktyk studenckich <br>
+
+            </div>
+
+            <div class="desktop mmh2">
+
+                Doświadczenie i praktyka, to kapitał, którego nie można kupić. <br> W MyMusic dajemy go za
+
+                darmo wierząc, że to opłacalna inwestycja. <br> Zapraszamy studentów na praktyki, podczas
+
+                których dzielimy się naszą wiedzą. <br> Najzdolniejsi mają szansę na podjęcie stałej współpracy.
+
+            </div>
+
+            <div style="font-size: 2.7vmax" class="mobile mmh1">
+
+                Dołącz do nas - <br> dział praktyk studenckich <br>
+
+            </div>
+
+            <div class="mobile mmh2 mmTopP1">
+
+                Doświadczenie i praktyka, to kapitał,<br> którego nie można kupić. <br> W MyMusic dajemy go za
+
+                darmo wierząc, <br> że to opłacalna inwestycja. <br> Zapraszamy studentów na praktyki,<br> podczas
+
+                których dzielimy się naszą wiedzą.<br> Najzdolniejsi mają szansę na podjęcie<br> stałej współpracy.
+
+            </div>
+
+        </div>
+
+        <div class="mmImgC2"><img class="mmImg1" src="glowna/dolacz-do-nas-mymusic.jpg" alt=""></div>
+
+        <div class="mmTopP1 mmKontakt">
+
+            <div class="mmSocial mmBottomP1">
+
+                <div class="mmBox2"><a href="https://www.facebook.com/MyMusicGroup/"><img class="mmSLogo"
+
+                            src="logos\facebook-01.svg" alt=""></a></div>
+
+                <div class="mmBox2"><a href="https://www.instagram.com/mymusicrecords/"><img class="mmSLogo"
+
+                            src="logos\instagram-01.svg" alt=""></a></div>
+
+                <div class="mmBox2"><a href="https://twitter.com/mymusicpl"><img class="mmSLogo" src="logos\twitter.png"
+
+                            alt=""></a></div>
+
+                <div class="mmBox2"><a href="https://www.linkedin.com/company/mymusicpl/"><img class="mmSLogo"
+
+                            src="logos\linkedIn.png" alt=""></a></div>
+
+            </div>
+
+            <div class="stopka" class="mmh2 mmTopP1">
+
+                <div class="mmBottomP4"> Tel.: +48 618103539 <br></div>
+
+                <div class="mmBottomP4"> @: sekretariat@mymusic.pl <br></div>
+
+                <div class="mmBottomP4"> Ul. Wierzbowa 31 <br></div>
+
+                <div class="mmBottomP4"> 62-081 Wysogotowo k. Poznania <br></div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    </div>
+
+    <div id="news" class="">
+
+        <div class="closeNews"></div>
+
+        <!--   <div class="newsBanner" alt="">
+
+               <h1>MYMUSIC NEWS</h1>
+
+           </div>-->
+
+    </div>
+
+</body>
+
+<style>
+
+    .zoom {
+
+  background-position: 50% 50%;
+
+  position: relative;
+
+  margin: 150px auto;
+
+  border: 5px solid white;
+
+  box-shadow: -1px 5px 15px black;
+
+  overflow: hidden;
+
+  cursor: zoom-in;
+
+}
+
+.zoom img:hover {
+
+  opacity: 0;
+
+}
+
+.zoom img {
+
+  transition: opacity 0.5s;
+
+  display: block;
+
+  width: 100%;
+
+}
+
+</style>
+
+<script type="text/javascript">
+
+    function zoom(e){
+
+      var zoomer = e.currentTarget;
+
+      e.offsetX ? offsetX = e.offsetX : offsetX = e.touches[0].pageX
+
+      e.offsetY ? offsetY = e.offsetY : offsetX = e.touches[0].pageX
+
+      x = offsetX/zoomer.offsetWidth*100
+
+      y = offsetY/zoomer.offsetHeight*100
+
+      zoomer.style.backgroundPosition = x + '% ' + y + '%';
+
+    }
+
+    </script>
+
+</html>
